@@ -2,28 +2,58 @@
     background: url(../../img/grettings/fon.png) no-repeat center/cover;
 }
 .container {
+
 }
 .grettings__content {
+
 }
 .header {
+display: flex;
+
+justify-content: space-between;
 }
 .logo {
+
 }
 .nav {
+
 }
 .nav__list {
+display: flex;
+column-gap: 40px;
+align-items: center;
 }
 .nav__item {
+    font-family: var(--FontLF)
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
+    
 }
 .square {
+width: 4px;
+height: 4px;
+background-color: #fff;
 }
 .grettings__desc {
+
 }
 .grettings__title {
+
 }
 .grettings__text {
+
 }
 .btn {
+
 }
 .grettings__btn {
+
+}
+
+.nav__item:last-child{
+    border: 2px white solid;
+    padding: 11px 17px;
+    border-radius: 4px;
 }

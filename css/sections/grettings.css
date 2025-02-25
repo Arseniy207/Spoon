@@ -1,5 +1,6 @@
 .grettings {
     background: url(../../img/grettings/fon.png) no-repeat center/cover;
+    padding-top: 30px;
 }
 .container {
 
@@ -23,8 +24,8 @@ display: flex;
 column-gap: 40px;
 align-items: center;
 }
-.nav__item {
-    font-family: var(--FontLF)
+.nav__item a{
+    font-family: var(--FontLF);
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
@@ -38,22 +39,51 @@ background-color: #fff;
 }
 .grettings__desc {
 
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .grettings__title {
-
+    font-family: var(--FontLF);
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
 }
 .grettings__text {
-
+    font-family: var(--FontIBM);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 185%;
+    text-align: center;
+    color: #fff;
 }
 .btn {
-
+    padding: 15px 30px;
+    background-color: var(--colorGreen);
+    border: 0;
+    font-family: var(--FontLF);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
 }
 .grettings__btn {
-
+   
 }
 
-.nav__item:last-child{
+.nav__item:last-child a{
     border: 2px white solid;
     padding: 11px 17px;
     border-radius: 4px;
+}
+
+.nav__item:hover a{
+    color: var(--colorGreen);
+    border-color:var(--colorGreen)
 }

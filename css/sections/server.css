@@ -1,0 +1,40 @@
+.service {
+    margin-top: 117px;
+}
+.conainer {
+}
+.service__content {
+}
+.service__main-text {
+    max-width: 507px;
+}
+
+.service__list {
+display: flex;
+margin-top: 54px;
+}
+.service__item {
+    border: 1.5px solid lightgray;
+    margin-top: 54px;
+    padding: 54px 10px 109px 42px;
+    display: block;
+}
+.service__title {
+font-family: var(--FontLF);
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #000;
+padding-top: 30px;
+padding-bottom: 13px;
+}
+.service__text {
+    font-family: var(--FontIBM);
+font-weight: 400;
+font-size: 13px;
+line-height: 185%;
+color: #999;
+
+}
+.service__item>img{
+  

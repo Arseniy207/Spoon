@@ -12,12 +12,12 @@
 .service__list {
 display: flex;
 margin-top: 54px;
+gap: 19px;
 }
 .service__item {
-    border: 1.5px solid lightgray;
-    margin-top: 54px;
-    padding: 54px 10px 109px 42px;
-    display: block;
+    border: 1px solid #f7f7f7;
+    padding: 51px 56px 109px 41px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
 }
 .service__title {
 font-family: var(--FontLF);

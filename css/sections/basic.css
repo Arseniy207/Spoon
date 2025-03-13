@@ -47,3 +47,32 @@ ul, ol{
     color:black;
     font-weight: 700;
 }
+
+.link{
+font-family: var(--FontIBM);
+font-weight: 400;
+font-size: 13px;
+line-height: 164%;
+text-transform: uppercase;
+text-align: center;
+color: #5ab963;
+}
+.btn {
+    padding: 15px 30px;
+    background-color: var(--colorGreen);
+    border: 0;
+    font-family: var(--FontLF);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 1.5s;
+}
+.btn:hover{
+    transform: scale(1.3)
+
+}
